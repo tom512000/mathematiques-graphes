@@ -1,0 +1,18 @@
+digraph "FT(M2)" {
+	graph [bgcolor="#ffffff00" fontcolor=grey fontsize=16 label="FT(M2)" overlap=false]
+	node [color=grey fixedsize=true fontsize=14 shape=circle style=filled width=0.4]
+	edge [arrowsize=0.7 color=grey fontcolor=grey fontsize=12]
+	node [fillcolor="#ffffff"]
+	0
+	node [fillcolor="#ffffff"]
+	1
+	node [fillcolor="#ffffff"]
+	2
+	0 -> 0
+	0 -> 1
+	0 -> 2
+	1 -> 0
+	1 -> 1
+	1 -> 2
+	2 -> 2
+}

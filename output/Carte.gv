@@ -1,0 +1,31 @@
+graph Carte {
+	graph [bgcolor="#ffffff00" fontcolor=grey fontsize=16 label=Carte overlap=false]
+	node [color=grey fixedsize=true fontsize=14 shape=circle style=filled width=0.4]
+	edge [arrowsize=0.7 color=grey fontcolor=grey fontsize=12]
+	node [fillcolor="#cdff00"]
+	Fr
+	node [fillcolor="#ff00bf"]
+	Lux
+	node [fillcolor="#0018ff"]
+	Bel
+	node [fillcolor="#00ff8c"]
+	All
+	node [fillcolor="#cdff00"]
+	PB
+	node [fillcolor="#0018ff"]
+	Sui
+	node [fillcolor="#00ff8c"]
+	It
+	Fr -- Lux
+	Fr -- Bel
+	Fr -- All
+	Fr -- Sui
+	Fr -- It
+	Lux -- Bel
+	Lux -- All
+	Bel -- All
+	Bel -- PB
+	All -- PB
+	All -- Sui
+	Sui -- It
+}

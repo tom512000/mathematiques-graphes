@@ -1,0 +1,23 @@
+graph GV {
+	graph [bgcolor="#ffffff00" fontcolor=grey fontsize=16 label=GV overlap=false]
+	node [color=grey fixedsize=true fontsize=14 shape=circle style=filled width=0.4]
+	edge [arrowsize=0.7 color=grey fontcolor=grey fontsize=12]
+	node [fillcolor="#ffffff"]
+	0
+	node [fillcolor="#ffffff"]
+	1
+	node [fillcolor="#ffffff"]
+	2
+	node [fillcolor="#ffffff"]
+	3
+	node [fillcolor="#ffffff"]
+	4
+	0 -- 1 [label=2.0]
+	0 -- 2 [label=4.0]
+	0 -- 3 [label=3.0]
+	0 -- 4 [label=6.0]
+	1 -- 2 [label=7.0]
+	2 -- 3 [label=2.0]
+	2 -- 4 [label=8.0]
+	3 -- 4 [label=1.0]
+}
